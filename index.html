@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .container{
+            border: 5px solid gold;
+            width: 30%;
+            text-align: center;
+            padding-bottom: 20px;
+            margin-left: 500px;
+            margin-top: 200px;
+        }
+        i{
+            border: 1px solid gold;
+            border-radius: 50%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 40px;
+            color: white;
+            background-color: gold;
+        }
+        input{
+            padding: 20px;
+            width: 80%;
+            text-align: center;
+            background-color: burlywood;
+            border: 1px solid burlywood;
+            border-radius: 10px;
+        }
+        button{
+            border: 1px solid gold;
+            background-color: gold;
+            color: blue;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <i class="fa-solid fa-user"></i>
+        <h1>Ask Me a Question</h1>
+        <input type="text" placeholder="Type Something....." id="input"><br><br>
+        <button onclick="accept()">Accept</button>
+        <button>Decline</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
